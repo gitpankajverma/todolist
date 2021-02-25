@@ -1,0 +1,112 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background: #00273e;
+  height: 100vh;
+}
+
+.mainDiv {
+  width: 30%;
+  min-width: 260px;
+  min-height: 450px;
+  padding: 1px;
+  padding-bottom: 50px;
+  border-radius: 8px;
+  border: none;
+  background: rgb(255, 255, 255);
+  overflow: hidden;
+  box-shadow: 2px 3px 6px #001528;
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  margin: auto;
+  margin-top: 50px;
+}
+.heading {
+  background: #001528;
+  color: white;
+  text-align: center;
+  margin-top: 25px;
+  font-size: 25px;
+  padding: 5px auto;
+}
+.heading:hover {
+  background: #123d66;
+}
+
+.inputGroup {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  flex-basis: 0;
+  width: 100%;
+  margin: 20px 10px;
+}
+.inputBox {
+  width: 80%;
+  border: none;
+  outline: none;
+  padding: 3px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #001528;
+  border-bottom: 2px solid #001528;
+}
+.inputBox:focus {
+  border-bottom: 3px solid #023b70;
+  font-weight: bold;
+}
+
+.tasks {
+  width: 92%;
+  height: 300px;
+  overflow: auto;
+  margin: auto 15px;
+}
+
+.tasks::-webkit-scrollbar {
+  width: 10px;
+}
+.tasks::-webkit-scrollbar-thumb {
+  background-color: #001528;
+  border-radius: 10px;
+}
+.tasks::-webkit-scrollbar-track {
+  background-color: #fff;
+}
+
+.list {
+  list-style-type: none;
+  margin-top: 5px;
+}
+
+.listItem {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left: 15%;
+  flex-basis: 0;
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.uiIcon {
+  font-size: "25px";
+  margin-right: 5px;
+}
+
+.removeAll {
+  float: right;
+  width: 20%;
+  height: 20%;
+}
+.btnText {
+  text-transform: capitalize;
+  font-size: 14px;
+  font-weight: bold;
+}
