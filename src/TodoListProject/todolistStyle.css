@@ -58,7 +58,6 @@ body {
 }
 .inputBox:focus {
   border-bottom: 3px solid #023b70;
-  font-weight: bold;
 }
 
 .tasks {
